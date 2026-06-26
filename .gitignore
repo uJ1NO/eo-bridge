@@ -30,3 +30,18 @@ dist/
 # intentionally tracked - they're referenced from the README and are part
 # of the documentation surface.  They get regenerated when you run the
 # demo scripts.
+
+# Local working materials kept out of the public repo
+_private/
+.cursor/
+*.private.md
+*.local.md
+*.local.*
+*.draft.md
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+credentials.json
