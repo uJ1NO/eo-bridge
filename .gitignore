@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtualenvs
+.venv/
+venv/
+env/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Build / dist
+build/
+dist/
+
+# JAX / matplotlib caches that occasionally appear locally
+.jax_cache/
+.matplotlib/
+
+# NOTE: the two demo PNGs (co_simulation.png, tx_pattern_demo.png) are
+# intentionally tracked - they're referenced from the README and are part
+# of the documentation surface.  They get regenerated when you run the
+# demo scripts.
